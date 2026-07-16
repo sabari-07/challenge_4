@@ -1,0 +1,44 @@
+# Core Dependencies - Updated Versions
+# Python 3.11+ required
+
+# Data Processing
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==24.0.0
+
+# Machine Learning - Forecasting
+prophet==1.3.0                    # Updated from 1.1.5 (required for model pickling)
+xgboost==3.2.0
+scikit-learn==1.9.0               # Updated from 1.6.3
+scipy==1.17.1
+
+# Model Serialization (IMPORTANT for saving Prophet models)
+joblib==1.5.3                     # Updated from 1.5.1 - handles Prophet better than pickle
+
+# API Framework
+fastapi==0.136.3
+uvicorn==0.49.0
+pydantic==2.13.4
+python-multipart==0.0.32
+
+# AI - Cohere
+cohere==7.0.5
+
+# Data Visualization
+plotly==6.8.0                     # Optional - for interactive plots
+matplotlib==3.11.0                # Updated from 3.10.2
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.68.2
+click==8.4.2
+
+# Date Handling
+holidays==0.98                    # Prophet dependency
+
+# Optional - Only if using LightGBM or Statsmodels
+# lightgbm==4.5.0                 # Uncomment if needed
+# statsmodels==0.14.4             # Uncomment if needed
+# seaborn==0.14.0                 # Uncomment if needed
+# pyyaml==6.0.3                   # Uncomment if needed
+# typing-extensions==4.15.2       # Usually included in Python 3.11+

@@ -1,0 +1,18 @@
+{
+  "trained_at": "2026-07-13T23:20:38.472917",
+  "data_records": 25562,
+  "channels": [
+    "google",
+    "meta",
+    "bing"
+  ],
+  "date_range": {
+    "start": "2024-01-01",
+    "end": "2026-06-05"
+  },
+  "models": {
+    "forecaster": "pickle\\model.pkl",
+    "optimizer": "pickle\\budget_optimizer.pkl",
+    "preprocessor": "pickle\\preprocessor.pkl"
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Background gradient circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad1)"/>
+
+  <!-- Define gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Chart bars -->
+  <rect x="25" y="60" width="8" height="20" rx="2" fill="white" opacity="0.9"/>
+  <rect x="37" y="50" width="8" height="30" rx="2" fill="white" opacity="0.9"/>
+  <rect x="49" y="45" width="8" height="35" rx="2" fill="white" opacity="0.9"/>
+  <rect x="61" y="35" width="8" height="45" rx="2" fill="white" opacity="0.9"/>
+
+  <!-- Megaphone (marketing symbol) -->
+  <g transform="translate(58, 15)">
+    <!-- Megaphone body -->
+    <path d="M8 5 L2 8 L2 15 L8 18 L12 18 L12 5 Z" fill="white" opacity="0.95"/>
+    <!-- Megaphone mouth -->
+    <ellipse cx="12" cy="11.5" rx="4" ry="6.5" fill="white" opacity="0.95"/>
+    <!-- Sound waves -->
+    <path d="M17 8 Q20 8 20 11.5 Q20 15 17 15" stroke="white" stroke-width="1.5" fill="none" opacity="0.8" stroke-linecap="round"/>
+    <path d="M22 6 Q26 6 26 11.5 Q26 17 22 17" stroke="white" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+  </g>
+</svg>
